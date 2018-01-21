@@ -1,0 +1,10 @@
+.footer{
+    margin: 30px auto 30px;
+    max-width: 946px;
+    padding: 0 20px;
+    overflow:hidden;
+    font-size: 12px;
+    color: #999999;
+    line-height: 18px;
+    /*text-align: center;*/
+}

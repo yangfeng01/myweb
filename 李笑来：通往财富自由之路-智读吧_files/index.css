@@ -1,0 +1,256 @@
+body{padding: 0;margin: 0;font-family:"微软雅黑";
+    color: #333;}
+
+/*广告栏*/
+.banner{
+    overflow: auto;
+    max-width: 946px;
+    margin: 48px auto 0;
+    background-color: #ffffff;
+}
+.banner img{
+    width: 100%;
+    max-width: 946px;
+}
+
+/*标签栏目*/
+.labels{
+    overflow: hidden;
+    padding: 0 20px;
+    max-width: 946px;
+    margin: 15px auto;
+    margin-bottom: 30px;
+}
+.labels .label-list{
+    overflow: auto;
+    float: left;
+    margin: 15px 20px 0 0;
+    border: 1px solid #dcdcdd;
+    /*圆角*/
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    /*手型*/
+    cursor:pointer;
+}
+.labels .label-list span{
+    margin: 0 13px 0 10px;
+    line-height: 34px;
+    font-size: 14px;
+    float: left;
+}
+.labels .label-list img{
+    width: 34px;
+    height: 34px;
+    float: left;
+
+}
+.labels a{
+    text-decoration: none;
+    color: #333333;
+    border: 1px solid #dcdcdd;
+    /*手型*/
+    cursor:pointer;
+    /*圆角*/
+    border-radius: 4px;
+    background-color: #f5f5f5;
+
+    margin: 15px 33px 0 0;
+    padding: 0 10px;
+    line-height: 34px;
+    font-size: 14px;
+    float: left;
+}
+hr{
+    border-bottom: none;
+
+    max-width: 946px;
+    border-color: #dcdcdd;
+    margin: 0 auto;
+}
+/*文章栏目*/
+.article-item{
+    overflow: hidden;
+    padding: 0 20px;
+    max-width: 946px;
+    margin: 0 auto;
+}
+.article-item div,.article-item div div{
+    max-width: 652px;
+    overflow: auto;
+}
+.records{
+    margin-top: 16px;
+    float: left;
+    overflow: auto;
+}
+.article-item .left-item span,.article-item .left-item img,.article-item .left-item{
+    display: block;
+    float: left;
+}
+
+.article-item .left-item .left-top{
+    margin: 24px 0 20px 0;
+}
+.authFace{
+    border-radius: 18px;
+}
+.authName{
+    line-height: 36px;
+    font-size: 14px;
+    color: #333333;
+    margin: 0 9px 0 16px;
+    height: 36px;
+}
+.creatTime{
+    line-height: 36px;
+    font-size: 14px;
+    color: #999999;
+    height: 36px;
+}
+
+.article-item .left-title{
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.article-item .left-title a{
+    text-decoration: none;
+    color: #333333;
+}
+.article-item .left-title a:hover {
+    text-decoration-line: underline;
+}
+.article-item .left-text{
+    font-size: 14px;
+    color: #666;
+    line-height: 21px;
+    margin-top: 20px;
+}
+.displayNone{
+    display: none !important;
+}
+
+.article-item .article-status{
+   margin: 0 0 24px 0;
+}
+.article-item .article-status div{
+    float: left;
+}
+.article-item .article-label{
+    margin-top: 16px;
+    overflow: auto;
+    padding: 0 8px;
+    font-size: 12px;
+    color: #f28b5d;
+    line-height: 26px;
+    border: solid 1px #f28b5d;
+    border-radius: 4px;
+    margin-right: 24px;
+}
+.article-item .article-view{
+    margin-top: 2px;
+    margin-right: 16px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #999;
+}
+.article-item .right-item{
+    /*圆角*/
+    border-radius: 8px;
+    float: right;
+    overflow: hidden;
+    width: 190px;
+    height: 142px;
+    background-color: #f5f5f5;
+    margin-top: 43px;
+}
+.article-item .right-item img{
+    width: 100%;
+    /*手型*/
+    cursor:pointer;
+}
+
+.moreBox{
+    margin: 30px auto 30px;
+    max-width: 946px;
+    padding: 0 20px;
+    overflow:hidden;
+}
+.more{
+    text-decoration: none;
+    display: block;
+
+
+    background-color: #bebebe;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 48px;
+    text-align: center;
+    /*圆角*/
+    border-radius: 8px;
+}
+.moreLabel{
+    border: none !important;
+    line-height: 34px;
+    font-size: 14px;
+
+    background: none !important;
+}
+.moreLabel:hover{
+    text-decoration: underline;
+}
+.lessLabel{
+    border: none !important;
+    line-height: 34px;
+    font-size: 14px;
+
+    background: none !important;
+}
+.lessLabel:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 550px) {
+    .right-item {
+        display: none !important;
+    }
+}
+
+
+/*标签栏目*/
+div.search {padding: 30px 0}
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.d2 {background: #DABB52;}
+.d2 input, .d2 button {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+.d2 input {
+    width: 100%;
+    height: 42px;
+    background: #F9F0DA;
+    padding-left: 15px;
+}
+.d2 button {
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #F15B42;
+    cursor: pointer;
+    color: #fff;
+}
+.d2 button:before {
+    /**content: "\f105";**/
+    font-family: FontAwesome;
+    color: #F9F0DA;
+    font-size: 20px;
+    font-weight: bold;
+
+}
